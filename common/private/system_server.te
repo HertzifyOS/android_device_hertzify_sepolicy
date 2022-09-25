@@ -25,3 +25,6 @@ set_prop(system_server, xtra_control_prop)
 # Webview
 allow system_server webview_zygote:process setsched;
 allow system_server app_zygote:process setsched;
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
