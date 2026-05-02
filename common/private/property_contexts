@@ -10,6 +10,15 @@ vendor.camera.skip_unconfigure.packagelist  u:object_r:vendor_persist_camera_pro
 # Bluetooth
 bluetooth.hci.disabled_commands        u:object_r:bluetooth_config_prop:s0
 
+# Custom version
+ro.hertzify.version                     u:object_r:custom_version_prop:s0
+ro.hertzify.device                      u:object_r:custom_version_prop:s0
+ro.hertzify.maintainer                  u:object_r:custom_version_prop:s0
+ro.hertzify.build.version               u:object_r:custom_version_prop:s0
+ro.hertzify.build.type                  u:object_r:custom_version_prop:s0
+ro.hertzify.build.date                  u:object_r:custom_version_prop:s0
+ro.hertzify.build.variant               u:object_r:custom_version_prop:s0
+
 # Dolby Properties
 ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
