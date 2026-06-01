@@ -26,3 +26,6 @@ allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
 
 add_service(system_server, lmo_freeform_service);
+
+# Let system server set vbmeta prop
+set_prop(system_server, bootloader_prop)
